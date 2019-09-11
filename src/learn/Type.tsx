@@ -1,6 +1,7 @@
 import React from "react";
 
 const Type: React.FC = () => {
+    console.log('--------基础类型篇--------');
     //数值 类型  与  字符串 类型
     let num1: number = 20;
     let num2: string = "30";
@@ -70,7 +71,7 @@ const Type: React.FC = () => {
     console.log(array2);
     return (
         <>
-            <div>Learn TypeScript types</div>
+            <div style={{margin:10}}>Learn TypeScript types</div>
         </>
     );
 };
