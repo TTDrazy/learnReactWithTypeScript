@@ -5,6 +5,7 @@ import HighTypes from './learn/HighTypes';
 import Variable from './learn/Variable';
 import Interface from './learn/Interface';
 import Class from './learn/Class';
+import User from './pages/User';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Variable></Variable>
       <Interface></Interface>
       <Class></Class>
+      <User></User>
     </div>
   );
 }
